@@ -26,7 +26,7 @@ pip3 install requests
 
 ### Installation
 
-You can either use `git` to install the tool, or just download the whole tool in `.zip` format from github
+You can either use `git` to install the tool, or just download the whole tool in `.zip` format from [github](https://github.com/chaoshaowei/adsbexchange-kml/archive/refs/heads/master.zip)
 
 Install:
 ```
