@@ -4,6 +4,13 @@ import json
 import datetime
 
 #-----------------------------
+# The main file of the tool
+#-----------------------------
+# This file will be the place for looking up
+# MODE S code of an aircraft
+# from a certain aircraft registration
+
+#-----------------------------
 # Notes
 #-----------------------------
 #  https://registry.faa.gov/AircraftInquiry/Search/NNumberResult
