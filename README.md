@@ -10,6 +10,7 @@ A download tool for downloading [ADS-B Exchange](https://globe.adsbexchange.com/
     - [Presrequisites](#presrequisites)
     - [Installation](#installation)
   - [Using the tool](#using-the-tool)
+  - [Limitations](#limitations)
   - [Notice](#notice)
 
 ## Getting the tool
@@ -45,6 +46,10 @@ Simply edit the reg and the date in `download.py`, then run the python script.
 Currently, the option of using the code requires you to modify the `download.py` file, and change the reg and/or the date.
 
 Maybe there will be graphical interface to get tracks in the future.
+
+## Limitations
+
+This tool relies on the Transponder Mode-S code of the airplane, and can only download 24 hour period of a GMT day of an airplane once a time.
 
 ## Notice
 
