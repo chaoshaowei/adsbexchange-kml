@@ -1,0 +1,30 @@
+[
+    {
+        "reg":  "N870BR",
+        "hex":  "ABF67F"
+    },{
+        "reg":  "N871BR",
+        "hex":  "ABFA36"
+    },{
+        "reg":  "N872BR",
+        "hex":  "ABFDED"
+    },{
+        "reg":  "N873BR",
+        "hex":  "AC01A4"
+    },{
+        "reg":  "N875BR",
+        "hex":  "AC0912"
+    },{
+        "reg":  "N876BR",
+        "hex":  "AC0CC9"
+    },{
+        "reg":  "N877BR",
+        "hex":  "AC1080"
+    },{
+        "reg":  "N821BR",
+        "hex":  "AB34BB"
+    },{
+        "reg":  "N869BR",
+        "hex":  "ABF06F"
+    }
+]
