@@ -2,6 +2,16 @@ import requests
 import os
 import json
 import datetime
+
+#-----------------------------
+# The main file of the tool
+#-----------------------------
+# This file contains pretty much everything
+# for getting tracks from adsbexchange.com
+# 
+# Other files are the sample template
+# in various use throughout the process
+
 #-----------------------------
 # Flags
 #-----------------------------
