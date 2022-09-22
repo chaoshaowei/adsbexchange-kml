@@ -22,7 +22,7 @@ SAVE_RESPONSE = True
 DIVIDE_LEG = True
 DIVISOR_SECOND = 900
 
-OUTPUT_TZ = datetime.timezone(datetime.timedelta(hours=-7))
+OUTPUT_TZ_NUM = -7
 
 OUTPUT_KML = True
 OUTPUT_GPX = True
@@ -40,6 +40,8 @@ if __name__ == '__main__':
     Y = 2022
     M = 9
     D = 20
+
+    OUTPUT_TZ = datetime.timezone(datetime.timedelta(hours=OUTPUT_TZ_NUM))
 
     #-----------------------------
     # target url

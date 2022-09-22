@@ -10,6 +10,7 @@ A download tool for downloading [ADS-B Exchange](https://globe.adsbexchange.com/
     - [Presrequisites](#presrequisites)
     - [Installation](#installation)
   - [Using the tool](#using-the-tool)
+    - [Parameters](#parameters)
   - [Limitations](#limitations)
   - [Notice](#notice)
 
@@ -43,13 +44,35 @@ git pull https://github.com/chaoshaowei/adsbexchange-kml.git
 
 Simply edit the reg and the date in `download.py`, then run the python script.
 
+The output file will be renamed based on the plane's registration, and the requested date. If [`DIVIDE_LEG`] option is selected, divided legs will be renamed based on the time of the last point of the leg, localized into timezone described in [`OUTPUT_TZ`].
+
 Currently, the option of using the code requires you to modify the `download.py` file, and change the reg and/or the date.
 
 Maybe there will be graphical interface to get tracks in the future.
 
+### Parameters
+
+Tool Options:
+
+* `DEBUG` = [`True`/`False`]: Display debug messages
+* `FORCE_SEARCH` = [`True`/`False`]: For future use
+* `SAVE_RESPONSE` = [`True`/`False`]: Save the RAW responses from adsbexchange.com
+* `DIVIDE_LEG` = [`True`/`False`]: Divide the 24 hours period into legs, if the airplane hasn't been moving for [`DIVISOR_SECOND`] seconds
+* `DIVISOR_SECOND` = [`Number`]: Prescribed as above
+* `OUTPUT_TZ_NUM` = [`Number`]: How many hours will the output format of divided legs be varied from GMT
+* `OUTPUT_KML` = [`True`/`False`]: Export `KML` Format
+* `OUTPUT_GPX` = [`True`/`False`]: Export `GPX` Format
+
+Requesting tracks:
+
+* `REG_ID` = [`String`]: The requested registration
+* `Y/M/D` = [`Number`]: The requested GMT date
+
 ## Limitations
 
 This tool relies on the Transponder Mode-S code of the airplane, and can only download 24 hour period of a GMT day of an airplane once a time.
+
+Currently, there are only Mode-s code of planes owned by EVA Flight training academy, but I will implement the ability to lookup Mode-S code in the future.
 
 ## Notice
 
