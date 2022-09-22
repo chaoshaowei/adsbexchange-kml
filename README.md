@@ -1,6 +1,6 @@
 # ADS-B Exchange 2 KML
 
-A download tool for downloading [ADS-B Exchange](https://globe.adsbexchange.com/)(ADS-B Tracking Map) tracks, and export to KML/GPX formats.
+A download tool for downloading [ADS-B Exchange](https://globe.adsbexchange.com/) tracks, and export to KML/GPX formats.
 
 ## Table of content
 
